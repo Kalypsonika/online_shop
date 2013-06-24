@@ -1,0 +1,5 @@
+rootProject.name='os-app'
+
+include ':os-api'
+include ':os-core'
+include ':os-webapp'
