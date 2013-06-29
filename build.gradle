@@ -9,7 +9,7 @@ buildscript {
 }
 
 allprojects {
-    group = 'com.gmail.jack4brain'
+    group = 'com.github.jack4brain'
     //version = versionMajor + "." + versionMinor + "." + versionBuild
     version = '1.0.0'
 }
@@ -24,6 +24,13 @@ subprojects {
 
     dependencies {
         testCompile 'junit:junit:4.11'
+
+        compile 'org.mongodb:mongo-java-driver:2.11.2'
+        compile 'org.mongodb:casbah-query_2.9.1:3.0.0-M2'
+
+        compile 'org.springframework.data:spring-data-commons-core:1.4.1.RELEASE'
+        compile 'org.springframework.data:spring-data-mongodb:1.2.1.RELEASE'
+
     }
 
     jar {

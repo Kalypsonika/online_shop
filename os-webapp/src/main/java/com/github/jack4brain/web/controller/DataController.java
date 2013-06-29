@@ -1,4 +1,4 @@
-package com.gmail.jack4brain.web.controller;
+package com.github.jack4brain.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * DataController...
  *
- * @author jack4brain@gmail.com
+ * @author jack4brain
  */
 @Controller
 @RequestMapping("/rest")

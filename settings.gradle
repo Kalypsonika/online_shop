@@ -1,5 +1,6 @@
 rootProject.name='os-app'
 
 include ':os-api'
+include ':os-repository'
 include ':os-core'
 include ':os-webapp'
